@@ -32,7 +32,7 @@ function desktopLayout() {
     document.getElementById("illustration").src = "./images/illustration-woman-online-desktop.svg" ;
     document.getElementById("pattern").src = "./images/bg-pattern-desktop.svg";
     if(!document.getElementById("illustration-box-desktop")) {
-        document.querySelector("body").insertAdjacentHTML("beforebegin",illustrationBox) ;
+        document.querySelector(".card").insertAdjacentHTML("beforebegin",illustrationBox) ;
     }
 }
 
